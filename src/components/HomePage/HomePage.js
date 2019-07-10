@@ -1,18 +1,20 @@
 import React, { Component } from "react";
 import { Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "./HomePage.css";
 
 const style = {
   width: 400,
   height: 200,
-  border: "1px solid black",
-  backgroundColor: "green",
+  border: "1px solid #3ca82d",
+  backgroundColor: "#3ca82d",
   borderRadius: "2%",
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
   margin: 50,
-  fontSize: 25
+  fontSize: 25,
+  color: "white"
 };
 
 class HomePage extends Component {
@@ -34,10 +36,10 @@ class HomePage extends Component {
         fluid
       >
         <Row>
-          <h1>Patrick Bullion</h1>
+          <h1 style={{ fontSize: 100 }}>Patrick Bullion</h1>
         </Row>
         <Row>
-          <h3>Software Developer</h3>
+          <h3 style={{ fontSize: 50 }}>Software Developer</h3>
         </Row>
         <Row>
           <a style={style} href="https://github.com/pbullion">
@@ -46,7 +48,10 @@ class HomePage extends Component {
           <a style={style} href="https://www.linkedin.com/in/patrickbullion">
             LINKEDIN
           </a>
-          <a style={style} href="../../media/patrick_bullion_resume.pdf">
+          <a
+            style={style}
+            href="https://s3-us-west-2.amazonaws.com/patrickbullion.com/resume/patrick_bullion_resume.pdf"
+          >
             RESUME
           </a>
         </Row>
@@ -56,7 +61,7 @@ class HomePage extends Component {
           </Link>
           <Link style={style} to={"/spruce"}>
             SPRUCE BARBERSHOP APP
-          </Link>{" "}
+          </Link>
           <Link style={style} to={"/baseballParlayPredictor"}>
             BASEBALL PARLAY PREDICTOR
           </Link>

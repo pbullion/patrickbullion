@@ -13,25 +13,24 @@ const style = {
   position: "fixed",
   top: 0,
   left: 0,
-  zIndex: -1,
-  opacity: .5
+  opacity: .5,
+  zIndex: -2,
 };
+
+const style2 = {
+  width: "100vw",
+  height: "100vh",
+  position: "fixed",
+  top: 0,
+  left: 0,
+  zIndex: -1,
+  opacity: 0.4,
+  backgroundColor: '#000000'
+};
+
 class Background extends Component {
   state = {
     videos: [video1, video2, video3, video4, video5]
-  };
-
-  getBackgroundVideo = () => {
-    console.log(
-      "../../media/backgroundvideos/snowboardingbackground" +
-        Math.floor(Math.random() * 5 + 1) +
-        ".mp4"
-    );
-    return (
-      "../../media/backgroundvideos/snowboardingbackground" +
-      Math.floor(Math.random() * 5 + 1) +
-      ".mp4"
-    );
   };
 
   componentWillMount() {}
@@ -45,15 +44,8 @@ class Background extends Component {
     };
 
     return (
-      <Container
-        style={{
-          // display: "flex",
-          // flexDirection: "column",
-          // alignItems: "center",
-          // justifyContent: "center",
-        }}
-        fluid
-      >
+      <Container fluid>
+        <div style={style2}></div>
         <div style={style}>
           <Cover
             videoOptions={videoOptions}
