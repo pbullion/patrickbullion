@@ -1,13 +1,10 @@
 import React, { Component } from "react";
 import { Container } from "react-bootstrap";
-import { withRouter } from "react-router-dom";
 
 class HomePage extends Component {
   state = {};
 
-  componentWillMount() {
-
-  }
+  componentWillMount() {}
 
   render() {
     return (
@@ -16,13 +13,16 @@ class HomePage extends Component {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          justifyContent: "center"
+          justifyContent: "center",
+          width: "100vw",
+          height: "100vh"
         }}
+        fluid
       >
-        <h1>Hello</h1>
+        <h1>Hellllooooo</h1>
       </Container>
     );
   }
 }
 
-export default withRouter(HomePage);
+export default HomePage;
