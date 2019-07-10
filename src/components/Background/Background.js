@@ -38,7 +38,7 @@ class Background extends Component {
 
   render() {
     const videoOptions = {
-      src: this.state.videos[Math.floor(Math.random() * 5 + 1)],
+      src: this.state.videos[Math.floor(Math.random() * 4 + 1)],
       autoPlay: true,
       muted: true,
       loop: true
