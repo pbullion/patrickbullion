@@ -13,7 +13,7 @@ const style = {
   position: "fixed",
   top: 0,
   left: 0,
-  opacity: .5,
+  opacity: .6,
   zIndex: -2,
 };
 
@@ -24,7 +24,7 @@ const style2 = {
   top: 0,
   left: 0,
   zIndex: -1,
-  opacity: 0.4,
+  opacity: 0.5,
   backgroundColor: '#000000'
 };
 
