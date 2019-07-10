@@ -43,7 +43,7 @@ class SprucePage extends Component {
                 }
                 style={{ fontSize: 50, color: "#75ff5d" }}
               >
-                Video Demo of App
+                Download Video Demo of App
               </a>
             </h1>
           </Col>
@@ -59,7 +59,7 @@ class SprucePage extends Component {
               justifyContent: "center",
               textAlign: "center",
               color: "#ffffff",
-              fontSize: 20
+              fontSize: 23
             }}
           >
             Was contracted to build an app for the barbershop that would allow
@@ -79,7 +79,7 @@ class SprucePage extends Component {
               justifyContent: "center",
               textAlign: "left",
               color: "#ffffff",
-              fontSize: 20
+              fontSize: 23
             }}
           >
             • The front end is built using React Native.
