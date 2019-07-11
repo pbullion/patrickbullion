@@ -52,6 +52,7 @@ class PortfolioPage extends Component {
             <Link to={"/baseballParlayPredictor"}>
               <img style={linkStyle} src={baseball} />
             </Link>
+            <Link to={"/"} style={{fontSize: 30}}>BACK</Link>
           </Col>
         </Row>
       </Container>
