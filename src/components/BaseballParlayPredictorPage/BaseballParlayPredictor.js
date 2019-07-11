@@ -23,7 +23,7 @@ class BaseballParlayPredictor extends Component {
         fluid
       >
         <h1>Coming Soon...</h1>
-        <Link to={"/"}>BACK</Link>
+        <Link to={"/portfolio"}>BACK</Link>
       </Container>
     );
   }

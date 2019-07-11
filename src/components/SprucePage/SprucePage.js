@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./SprucePage.css";
+import { Link } from "react-router-dom";
 
 class SprucePage extends Component {
   state = {};
@@ -95,6 +96,7 @@ class SprucePage extends Component {
             Store.
           </Col>
         </Row>
+        <Link to={"/portfolio"}>BACK</Link>
       </Container>
     );
   }

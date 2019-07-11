@@ -6,6 +6,7 @@ import Background from "./Background/Background";
 import GolfPoolPage from "./GolfPoolPage/GolfPoolPage";
 import BaseballParlayPredictor from "./BaseballParlayPredictorPage/BaseballParlayPredictor";
 import SprucePage from "./SprucePage/SprucePage";
+import PortfolioPage from "./PortfolioPage/PortfolioPage";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <Route path="/golfPool" exact component={GolfPoolPage} />
           <Route path="/baseballParlayPredictor" exact component={BaseballParlayPredictor} />
           <Route path="/spruce" exact component={SprucePage} />
+          <Route path="/portfolio" exact component={PortfolioPage} />
         </Router>
       </Fragment>
     );
