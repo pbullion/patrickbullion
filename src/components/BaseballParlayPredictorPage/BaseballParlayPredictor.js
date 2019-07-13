@@ -22,8 +22,17 @@ class BaseballParlayPredictor extends Component {
         }}
         fluid
       >
-        <h1>Coming Soon...</h1>
-        <Link to={"/portfolio"}>BACK</Link>
+        <h1>
+          <a href="http://www.parlaymeplease.com" style={{ color: "white" }}>
+            www.parlaymeplease.com
+          </a>
+        </h1>
+        <h3>
+          Under Construction. Been working on this off and on for a few weeks. Most is on the backend getting all the data and sorting/combing stats. So far im 17 for 20 picking baseball games.
+        </h3>
+        <h6>
+          <Link to={"/portfolio"}>BACK</Link>
+        </h6>
       </Container>
     );
   }

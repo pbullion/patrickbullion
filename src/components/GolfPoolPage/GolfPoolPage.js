@@ -22,8 +22,22 @@ class GolfPoolPage extends Component {
         }}
         fluid
       >
-        <h1>Coming Soon...</h1>
-        <Link to={"/portfolio"}>BACK</Link>
+        <h1>
+          <a href="http://www.golfapoolooza.com" style={{ color: "white" }}>
+            www.GolfaPOOLooza.com
+          </a>
+        </h1>
+        <h3>
+          Under Construction. Quickly put this together in a few days for my
+          buddy so he didnt have to manually email all 50 people in the pool, as
+          well as manually input all the golfers scores 4 days in a row and have
+          human error. Right now its just good for the British Open but after
+          that I already have it set up to change for each upcoming tournament
+          every week.
+        </h3>
+        <h6>
+          <Link to={"/portfolio"}>BACK</Link>
+        </h6>
       </Container>
     );
   }
