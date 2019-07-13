@@ -20,7 +20,6 @@ class BaseballParlayPredictor extends Component {
           color: "#ffffff",
           fontSize: 20
         }}
-        fluid
       >
         <h1>
           <a href="http://www.parlaymeplease.com" style={{ color: "white" }}>
@@ -28,7 +27,9 @@ class BaseballParlayPredictor extends Component {
           </a>
         </h1>
         <h3>
-          Under Construction. Been working on this off and on for a few weeks. Most is on the backend getting all the data and sorting/combing stats. So far im 17 for 20 picking baseball games.
+          Under Construction. Been working on this off and on for a few weeks.
+          Most is on the backend getting all the data and sorting/combing stats.
+          So far im 17 for 20 picking baseball games.
         </h3>
         <h6>
           <Link to={"/portfolio"}>BACK</Link>

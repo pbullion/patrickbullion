@@ -20,7 +20,6 @@ class GolfPoolPage extends Component {
           color: "#ffffff",
           fontSize: 20
         }}
-        fluid
       >
         <h1>
           <a href="http://www.golfapoolooza.com" style={{ color: "white" }}>
