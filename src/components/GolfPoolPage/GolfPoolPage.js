@@ -1,6 +1,10 @@
 import React, { Component } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import schedule from "./images/schedule.png";
+import leaderboard from "./images/leaderboard.png";
+import selection from "./images/selection.png";
+import "./GolfPoolPage.css";
 
 class GolfPoolPage extends Component {
   state = {};
@@ -15,10 +19,9 @@ class GolfPoolPage extends Component {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          width: "100vw",
-          height: "100vh",
           color: "#ffffff",
-          fontSize: 20
+          fontSize: 20,
+          paddingTop: 50
         }}
       >
         <h1>
@@ -26,7 +29,12 @@ class GolfPoolPage extends Component {
             www.GolfaPOOLooza.com
           </a>
         </h1>
-        <h3>
+        <h3 style={{ marginTop: 15, marginBottom: 25 }}>
+          <ul>
+            <li>ReactJS Front End</li>
+            <li>NodeJS Back End</li>
+            <li>The backend pulls its data from SportsRadar Golf Api's</li>
+          </ul>
           Under Construction. Quickly put this together in a few days for my
           buddy so he didnt have to manually email all 50 people in the pool, as
           well as manually input all the golfers scores 4 days in a row and have
@@ -34,9 +42,51 @@ class GolfPoolPage extends Component {
           that I already have it set up to change for each upcoming tournament
           every week.
         </h3>
-        <h6>
+        <h4 style={{ marginTop: 15, marginBottom: 25 }}>
+          <ul>
+            <li>
+              The home page displays the overall rules and lists all of the
+              remaining PGA Tour events
+            </li>
+            <li>
+              Sign Up is only active whenever it is the Monday before the event
+              and then gets disabled again the day the tournament starts
+            </li>
+            <li>
+              The Leaderboard is active the Monday before Tournament starts and
+              then from then on
+            </li>
+          </ul>
+        </h4>
+        <img src={schedule} />
+        <h4 style={{ marginTop: 15, marginBottom: 25 }}>
+          <ul>
+            <li>
+              On this page I pull in the World Golf Rankings, then pull in the
+              field for this specific tournament
+            </li>
+            <li>
+              Then the golfers get put in the correct tier according to our
+              rules
+            </li>
+          </ul>
+        </h4>
+        <img src={selection} />
+        <h4 style={{ marginTop: 15, marginBottom: 25 }}>
+          <ul>
+            <li>
+              This page displays the overall leaderboard for every person who
+              entered
+            </li>
+            <li>
+              It also does all of the math and sorts the leaderboard in order
+            </li>
+          </ul>
+        </h4>
+        <img src={leaderboard} />
+        <h1>
           <Link to={"/portfolio"}>BACK</Link>
-        </h6>
+        </h1>
       </Container>
     );
   }
