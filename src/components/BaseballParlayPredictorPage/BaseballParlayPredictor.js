@@ -31,6 +31,13 @@ class BaseballParlayPredictor extends Component {
             CLICK HERE FOR UP TO DATE RESULTS
           </a>
         </h1>
+        <h3 style={{ marginTop: 15, marginBottom: 25 }}>
+          <ul>
+            <li>ReactJS Front End</li>
+            <li>NodeJS Back End</li>
+            <li>The backend pulls its data from MySportsFeed Baseball API</li>
+          </ul>
+        </h3>
         <h4 style={{ marginTop: 15, marginBottom: 25 }}>
           <ul>
             <li>
