@@ -7,11 +7,6 @@ import portfolio from "../../media/links/portfolio.png";
 import resume from "../../media/links/resume.png";
 import "./HomePage.css";
 
-const linkStyle = {
-  width: 500,
-  margin: 25
-};
-
 class HomePage extends Component {
   state = {};
 
@@ -27,15 +22,16 @@ class HomePage extends Component {
           justifyContent: "center",
           width: "100vw",
           height: "100vh",
-          color: "#ffffff"
+          color: "#ffffff",
+          textAlign: "center"
         }}
         fluid
       >
         <Row>
-          <h1 style={{ fontSize: 100 }}>Patrick Bullion</h1>
+          <h1>Patrick Bullion</h1>
         </Row>
         <Row style={{ marginBottom: 40 }}>
-          <h3 style={{ fontSize: 50 }}>Software Developer</h3>
+          <h3>Software Developer</h3>
         </Row>
         <Row>
           <Col
@@ -48,16 +44,16 @@ class HomePage extends Component {
             xs={12}
           >
             <a href="https://github.com/pbullion">
-              <img style={linkStyle} src={github} />
+              <img className="linkImages" src={github} />
             </a>
             <Link to={"/portfolio"}>
-              <img style={linkStyle} src={portfolio} />
+              <img className="linkImages" src={portfolio} />
             </Link>
             <a href="https://s3-us-west-2.amazonaws.com/patrickbullion.com/resume/patrick_bullion_resume.pdf">
-              <img style={linkStyle} src={resume} />
+              <img className="linkImages" src={resume} />
             </a>
             <a href="https://www.linkedin.com/in/patrickbullion">
-              <img style={linkStyle} src={linkedin} />
+              <img className="linkImages" src={linkedin} />
             </a>
           </Col>
         </Row>

@@ -6,11 +6,6 @@ import baseball from "../../media/links/baseball.png";
 import spruce from "../../media/links/spruce.png";
 import "./PortfolioPage.css";
 
-const linkStyle = {
-  width: 500,
-  margin: 25
-};
-
 class PortfolioPage extends Component {
   state = {};
 
@@ -27,11 +22,12 @@ class PortfolioPage extends Component {
           width: "100vw",
           height: "100vh",
           color: "#ffffff",
+          textAlign: "center"
         }}
         fluid
       >
         <Row style={{ marginBottom: 30 }}>
-          <h3 style={{ fontSize: 100 }}>Portfolio</h3>
+          <h3 className="title">Portfolio</h3>
         </Row>
         <Row>
           <Col
@@ -44,15 +40,17 @@ class PortfolioPage extends Component {
             xs={12}
           >
             <Link to={"/spruce"}>
-              <img style={linkStyle} src={spruce} />
+              <img className="linkImages" src={spruce} />
             </Link>
             <Link to={"/golfPool"}>
-              <img style={linkStyle} src={golf} />
+              <img className="linkImages" src={golf} />
             </Link>
             <Link to={"/baseballParlayPredictor"}>
-              <img style={linkStyle} src={baseball} />
+              <img className="linkImages" src={baseball} />
             </Link>
-            <Link to={"/"} style={{fontSize: 30}}>BACK</Link>
+            <Link to={"/"} style={{ fontSize: 30 }}>
+              BACK
+            </Link>
           </Col>
         </Row>
       </Container>

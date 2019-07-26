@@ -1,3 +1,22 @@
 a:hover {
     text-decoration: none;
 }
+
+.linkImages {
+    width: 500px;
+    margin: 25px;
+}
+
+.title {
+    font-size: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .linkImages {
+        width: 300px;
+        margin: 25px;
+    }
+    .title {
+        font-size: 75px;
+    }
+}
