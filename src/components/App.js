@@ -3,9 +3,9 @@ import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import Background from "./Background/Background";
-import GolfPoolPage from "./GolfPoolPage/GolfPoolPage";
-import BaseballParlayPredictor from "./BaseballParlayPredictorPage/BaseballParlayPredictor";
-import SprucePage from "./SprucePage/SprucePage";
+import GolfPoolPage from "./Portfolio/GolfPoolPage/GolfPoolPage";
+import BaseballParlayPredictor from "./Portfolio/BaseballParlayPredictorPage/BaseballParlayPredictor";
+import SprucePage from "./Portfolio/SprucePage/SprucePage";
 import PortfolioPage from "./PortfolioPage/PortfolioPage";
 
 class App extends Component {
