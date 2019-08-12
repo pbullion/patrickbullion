@@ -24,12 +24,12 @@ class GolfPoolPage extends Component {
           paddingTop: 50
         }}
       >
-        <h1>
+        <h3>
           <a href="http://www.golfapoolooza.com" style={{ color: "white" }}>
             www.GolfaPOOLooza.com
           </a>
-        </h1>
-        <h3 style={{ marginTop: 15, marginBottom: 25 }}>
+        </h3>
+        <h4 style={{ marginTop: 15, marginBottom: 25 }}>
           <ul>
             <li>ReactJS Front End</li>
             <li>NodeJS Back End</li>
@@ -38,11 +38,11 @@ class GolfPoolPage extends Component {
           Under Construction. Quickly put this together in a few days for my
           buddy so he didnt have to manually email all 50 people in the pool, as
           well as manually input all the golfers scores 4 days in a row and have
-          human error. Right now its just good for the British Open but after
+          human error. Right now it's just good for the British Open but after
           that I already have it set up to change for each upcoming tournament
           every week.
-        </h3>
-        <h4 style={{ marginTop: 15, marginBottom: 25 }}>
+        </h4>
+        <h5 style={{ marginTop: 15, marginBottom: 25 }}>
           <ul>
             <li>
               The home page displays the overall rules and lists all of the
@@ -57,9 +57,9 @@ class GolfPoolPage extends Component {
               then from then on
             </li>
           </ul>
-        </h4>
+        </h5>
         <img src={schedule} />
-        <h4 style={{ marginTop: 15, marginBottom: 25 }}>
+        <h5 style={{ marginTop: 15, marginBottom: 25 }}>
           <ul>
             <li>
               On this page I pull in the World Golf Rankings, then pull in the
@@ -70,9 +70,9 @@ class GolfPoolPage extends Component {
               rules
             </li>
           </ul>
-        </h4>
+        </h5>
         <img src={selection} />
-        <h4 style={{ marginTop: 15, marginBottom: 25 }}>
+        <h5 style={{ marginTop: 15, marginBottom: 25 }}>
           <ul>
             <li>
               This page displays the overall leaderboard for every person who
@@ -82,11 +82,11 @@ class GolfPoolPage extends Component {
               It also does all of the math and sorts the leaderboard in order
             </li>
           </ul>
-        </h4>
+        </h5>
         <img src={leaderboard} />
-        <h1>
+        <h4 style={{ marginTop: 15, marginBottom: 50 }}>
           <Link to={"/portfolio"}>BACK</Link>
-        </h1>
+        </h4>
       </Container>
     );
   }

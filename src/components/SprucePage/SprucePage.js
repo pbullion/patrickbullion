@@ -23,7 +23,6 @@ class SprucePage extends Component {
           <Col
             xs={12}
             style={{
-              marginBottom: 50,
               marginTop: 50
             }}
           >
@@ -60,7 +59,7 @@ class SprucePage extends Component {
               justifyContent: "center",
               textAlign: "center",
               color: "#ffffff",
-              fontSize: 23
+              fontSize: 25
             }}
           >
             Was contracted to build an app for the barbershop that would allow
@@ -80,7 +79,7 @@ class SprucePage extends Component {
               justifyContent: "center",
               textAlign: "left",
               color: "#ffffff",
-              fontSize: 23
+              fontSize: 25
             }}
           >
             • The front end is built using React Native.
@@ -96,8 +95,9 @@ class SprucePage extends Component {
             Store.
           </Col>
         </Row>
-        <Link to={"/portfolio"}>BACK</Link>
-      </Container>
+        <h4 style={{ marginTop: 15, marginBottom: 50 }}>
+          <Link to={"/portfolio"}>BACK</Link>
+        </h4>      </Container>
     );
   }
 }

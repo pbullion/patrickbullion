@@ -49,7 +49,7 @@ class Background extends Component {
 
     return (
       <Container fluid style={{ padding: 0 }}>
-        {/*<div style={style2}></div>*/}
+        <div style={style2}></div>
         <div id="backgroundPic">
           {/*<Cover*/}
           {/*  videoOptions={videoOptions}*/}
