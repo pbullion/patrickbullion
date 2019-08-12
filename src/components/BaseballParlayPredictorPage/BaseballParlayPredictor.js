@@ -17,58 +17,79 @@ class BaseballParlayPredictor extends Component {
           alignItems: "center",
           justifyContent: "center",
           color: "#ffffff",
-          fontSize: 20,
+          fontSize: 15,
           paddingTop: 50
         }}
       >
-        <h1>
-          <a href="http://www.parlaymeplease.com" style={{ color: "white", marginBottom: 15 }}>
+        <h3>
+          <a
+            href="http://www.parlaymeplease.com"
+            style={{ color: "white", marginBottom: 15 }}
+          >
             www.parlaymeplease.com
           </a>
-        </h1>
-        <h1>
-          <a href="http://www.parlaymeplease.com/results" style={{ color: "white", marginBottom: 15 }}>
-            CLICK HERE FOR UP TO DATE RESULTS
+        </h3>
+        <h3>
+          <a
+            href="http://www.parlaymeplease.com/results"
+            style={{ color: "white", marginBottom: 15 }}
+          >
+            Click here for results
           </a>
-        </h1>
-        <h3 style={{ marginTop: 15, marginBottom: 25 }}>
+        </h3>
+        <h4 style={{ marginTop: 15, marginBottom: 25 }}>
           <ul>
             <li>ReactJS Front End</li>
             <li>NodeJS Back End</li>
             <li>The backend pulls its data from MySportsFeed Baseball API</li>
           </ul>
-        </h3>
-        <h4 style={{ marginTop: 15, marginBottom: 25 }}>
+        </h4>
+        <h5 style={{ marginTop: 15, marginBottom: 25 }}>
           <ul>
             <li>
               The backend API connects to a sports API that I found online
             </li>
             <li>
-              It finds todays schedule of games then uses each teams ID to find their current records.
+              It finds todays schedule of games then uses each teams ID to find
+              their current records.
             </li>
-            <li>Once it has the schedule and records, it then finds the lineup for each team and gets the starting pitcher. Once the starting pitcher is there I use the pitcher ID to get his stats.
+            <li>
+              Once it has the schedule and records, it then finds the lineup for
+              each team and gets the starting pitcher. Once the starting pitcher
+              is there I use the pitcher ID to get his stats.
             </li>
-            <li>After all of that, I assign point values for the teams records and the pitchers records.
+            <li>
+              After all of that, I assign point values for the teams records and
+              the pitchers records.
             </li>
-            <li>Once I have the total for each team, I calculate the difference.
+            <li>
+              Once I have the total for each team, I calculate the difference.
             </li>
-            <li>FINALLY, once I have the differences if the total difference is >10 that row turns green and the higher team name is in bold
+            <li>
+              FINALLY, once I have the differences if the total difference is
+              >10 that row turns green and the higher team name is in bold
             </li>
           </ul>
-        </h4>
+        </h5>
         <img className="team" src={teamList} />
-        <h4 style={{ marginTop: 15, marginBottom: 25 }}>
+        <h5 style={{ marginTop: 15, marginBottom: 25 }}>
           <ul>
-            <li>I also take the top four teams and put them into a function that returns all of the different combinations so that I can then bet many different ways to hedge my bets incase 1 or 2 teams lose
+            <li>
+              I also take the top four teams and put them into a function that
+              returns all of the different combinations so that I can then bet
+              many different ways to hedge my bets incase 1 or 2 teams lose
             </li>
-            <li>Sometimes there might only be 2 teams in the green, so far the best outcomes for atleast getting some money if a team loses is the four team days.
+            <li>
+              Sometimes there might only be 2 teams in the green, so far the
+              best outcomes for atleast getting some money if a team loses is
+              the four team days.
             </li>
           </ul>
-        </h4>
+        </h5>
         <img className="combos" src={comboList} />
-        <h1>
+        <h4 style={{ marginTop: 15, marginBottom: 50 }}>
           <Link to={"/portfolio"}>BACK</Link>
-        </h1>
+        </h4>
       </Container>
     );
   }
