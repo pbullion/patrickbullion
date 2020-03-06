@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import golf from "../../media/links/golf.png";
 import baseball from "../../media/links/baseball.png";
 import spruce from "../../media/links/spruce.png";
+import wedding from "../../media/links/spruce.png";
 import "./PortfolioPage.css";
 
 class PortfolioPage extends Component {
@@ -39,6 +40,9 @@ class PortfolioPage extends Component {
             }}
             xs={12}
           >
+            <Link to={"/wedding"}>
+              <img className="linkImages" src={wedding} />
+            </Link>
             <Link to={"/spruce"}>
               <img className="linkImages" src={spruce} />
             </Link>
