@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import "./SprucePage.css";
+import "./WeddingPage.css";
 import { Link } from "react-router-dom";
 
 class SprucePage extends Component {
@@ -26,35 +26,27 @@ class SprucePage extends Component {
               marginTop: 50
             }}
           >
-            <h1
-              style={{
-                fontSize: 75,
-                color: "#ffffff"
-              }}
-            >
-              #OneInABullion wedding site and admin site
-            </h1>
             <a href="https://www.oneinabullion.com">
-              <h1>www.OneInABullion.com</h1>
+              <p
+                style={{
+                  fontSize: "2rem"
+                }}
+              >
+                www.OneInABullion.com
+              </p>
             </a>
           </Col>
           <Col xs={12}>
-            <h1>
-              <a
-                href={
-                  "https://s3-us-west-2.amazonaws.com/patrickbullion.com/spruce/spruceApp.MOV"
-                }
-                style={{ fontSize: 50, color: "#75ff5d" }}
-              >
+            <p>
+              <a href={""} style={{ color: "#75ff5d", fontSize: "2rem" }}>
                 Download Video Demo of the admin site
               </a>
-            </h1>
+            </p>
           </Col>
         </Row>
         <Row style={{ marginTop: 50 }}>
           <Col
             xs={12}
-            md={6}
             style={{
               display: "flex",
               flexDirection: "column",
@@ -72,7 +64,6 @@ class SprucePage extends Component {
           </Col>
           <Col
             xs={12}
-            md={6}
             style={{
               display: "flex",
               flexDirection: "column",
@@ -122,7 +113,7 @@ class SprucePage extends Component {
                 (including updating their RSVP status)
               </li>
             </ul>
-            <h3>Wedding Site API</h3>
+            <h3>Wedding Site UI</h3>
             <h5>built in React</h5>
             <ul>
               <li>
