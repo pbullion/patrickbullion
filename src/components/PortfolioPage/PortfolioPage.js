@@ -41,16 +41,44 @@ class PortfolioPage extends Component {
             xs={12}
           >
             <Link to={"/wedding"}>
-              <img className="linkImages" src={wedding} />
+              <p
+                style={{
+                  fontSize: "2rem",
+                  color: "white"
+                }}
+              >
+                Wedding Site
+              </p>
             </Link>
             <Link to={"/spruce"}>
-              <img className="linkImages" src={spruce} />
+              <p
+                style={{
+                  fontSize: "2rem",
+                  color: "white"
+                }}
+              >
+                Spruce Barbershop App
+              </p>
             </Link>
             <Link to={"/golfPool"}>
-              <img className="linkImages" src={golf} />
+              <p
+                style={{
+                  fontSize: "2rem",
+                  color: "white"
+                }}
+              >
+                Golf Fantasy Pool
+              </p>
             </Link>
             <Link to={"/baseballParlayPredictor"}>
-              <img className="linkImages" src={baseball} />
+              <p
+                style={{
+                  fontSize: "2rem",
+                  color: "white"
+                }}
+              >
+                Baseball Parlay Predictor
+              </p>
             </Link>
             <Link to={"/"} style={{ fontSize: 30 }}>
               BACK

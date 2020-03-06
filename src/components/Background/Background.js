@@ -26,7 +26,7 @@ const style2 = {
   top: 0,
   left: 0,
   zIndex: -1,
-  opacity: 0.5,
+  opacity: 0.6,
   backgroundColor: "#000000"
 };
 
