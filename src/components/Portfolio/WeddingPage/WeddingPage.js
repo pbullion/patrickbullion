@@ -38,7 +38,12 @@ class SprucePage extends Component {
           </Col>
           <Col xs={12}>
             <p>
-              <a href={""} style={{ color: "#75ff5d", fontSize: "2rem" }}>
+              <a
+                href={
+                  "https://s3-us-west-2.amazonaws.com/patrickbullion.com/portfolio/weddingSiteDemo.mov"
+                }
+                style={{ color: "#75ff5d", fontSize: "2rem" }}
+              >
                 Download Video Demo of the admin site
               </a>
             </p>
