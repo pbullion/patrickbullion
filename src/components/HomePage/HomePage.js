@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import { Container, Col, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import github from "../../media/links/github.png";
-import linkedin from "../../media/links/linkedin.png";
-import portfolio from "../../media/links/portfolio.png";
-import resume from "../../media/links/resume.png";
-import "./HomePage.css";
+import React, { Component } from 'react';
+import { Container, Col, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import github from '../../media/links/github.png';
+import linkedin from '../../media/links/linkedin.png';
+import portfolio from '../../media/links/portfolio.png';
+import resume from '../../media/links/resume.png';
+import './HomePage.css';
 
 class HomePage extends Component {
   state = {};
@@ -16,14 +16,14 @@ class HomePage extends Component {
     return (
       <Container
         style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          width: "100vw",
-          height: "100vh",
-          color: "#ffffff",
-          textAlign: "center"
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: '100vw',
+          height: '100vh',
+          color: '#ffffff',
+          textAlign: 'center',
         }}
         fluid
       >
@@ -36,24 +36,21 @@ class HomePage extends Component {
         <Row>
           <Col
             style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              justifyContent: "center"
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
             }}
             xs={12}
           >
-            <a href="https://github.com/pbullion">
-              <img className="linkImages" src={github} />
-            </a>
-            <Link to={"/portfolio"}>
-              <img className="linkImages" src={portfolio} />
+            <Link to={'/portfolio'}>
+              <img className='linkImages' src={portfolio} />
             </Link>
-            <a href="https://s3-us-west-2.amazonaws.com/patrickbullion.com/resume/patrick_bullion_resume.pdf">
-              <img className="linkImages" src={resume} />
+            <a href='https://s3-us-west-2.amazonaws.com/patrickbullion.com/resume/patrick_bullion_resume.pdf'>
+              <img className='linkImages' src={resume} />
             </a>
-            <a href="https://www.linkedin.com/in/patrickbullion">
-              <img className="linkImages" src={linkedin} />
+            <a href='https://www.linkedin.com/in/patrickbullion'>
+              <img className='linkImages' src={linkedin} />
             </a>
           </Col>
         </Row>
