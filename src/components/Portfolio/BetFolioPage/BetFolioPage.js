@@ -4,11 +4,11 @@ import './BetFolioPage.css';
 import { Link } from 'react-router-dom';
 import appStoreIcon from '../../../media/appstoreicon.png';
 import betFolioIcon from '../../../media/BetFolio.png';
-import demo1 from '../../../media/betFolio/1.PNG';
-import demo2 from '../../../media/betFolio/2.PNG';
-import demo3 from '../../../media/betFolio/3.PNG';
-import demo4 from '../../../media/betFolio/4.PNG';
-import demo5 from '../../../media/betFolio/5.PNG';
+import demo1 from '../../../media/betFolio/1.png';
+import demo2 from '../../../media/betFolio/2.png';
+import demo3 from '../../../media/betFolio/3.png';
+import demo4 from '../../../media/betFolio/4.png';
+import demo5 from '../../../media/betFolio/5.png';
 import demo6 from '../../../media/betFolio/6.PNG';
 import demo7 from '../../../media/betFolio/7.PNG';
 
