@@ -80,16 +80,6 @@ class PortfolioPage extends Component {
                 Golf Fantasy Pool
               </p>
             </Link>
-            {/* <Link to={'/baseballParlayPredictor'}>
-              <p
-                style={{
-                  fontSize: '2rem',
-                  color: 'white',
-                }}
-              >
-                Baseball Parlay Predictor
-              </p>
-            </Link> */}
             <Link to={'/'} style={{ fontSize: 30 }}>
               BACK
             </Link>
