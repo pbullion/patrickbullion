@@ -80,7 +80,7 @@ class PortfolioPage extends Component {
                 Golf Fantasy Pool
               </p>
             </Link>
-            <Link to={'/baseballParlayPredictor'}>
+            {/* <Link to={'/baseballParlayPredictor'}>
               <p
                 style={{
                   fontSize: '2rem',
@@ -89,7 +89,7 @@ class PortfolioPage extends Component {
               >
                 Baseball Parlay Predictor
               </p>
-            </Link>
+            </Link> */}
             <Link to={'/'} style={{ fontSize: 30 }}>
               BACK
             </Link>
