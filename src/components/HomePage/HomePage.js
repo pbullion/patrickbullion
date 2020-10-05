@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import github from '../../media/links/github.png';
 import linkedin from '../../media/links/linkedin.png';
 import portfolio from '../../media/links/portfolio.png';
 import resume from '../../media/links/resume.png';
