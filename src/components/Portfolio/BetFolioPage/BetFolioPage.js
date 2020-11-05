@@ -41,7 +41,7 @@ class BetFolioPage extends Component {
             {/* <a href='https://apps.apple.com/us/app/betfolio/id1524118961'>
               <img style={{ width: 135, height: 40 }} src={appStoreIcon} />
             </a> */}
-            <a href='myapp://'>
+            <a href='betfolio://'>
               <img style={{ width: 135, height: 40 }} src={appStoreIcon} />
             </a>
           </Col>
