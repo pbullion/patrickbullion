@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, HashRouter } from 'react-router-dom';
 import HomePage from './HomePage';
 import Background from './Background/Background';
 import GolfPoolPage from './Portfolio/GolfPoolPage/GolfPoolPage';
@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <Fragment>
         <Background />
-        <Router>
+        <HashRouter>
           <Route path='/' exact component={HomePage} />
           <Route path='/golfPool' exact component={GolfPoolPage} />
           <Route
@@ -27,7 +27,7 @@ class App extends Component {
           <Route path='/betfolio' exact component={BetFolioPage} />
           <Route path='/wedding' exact component={WeddingPage} />
           <Route path='/portfolio' exact component={PortfolioPage} />
-        </Router>
+        </HashRouter>
       </Fragment>
     );
   }
