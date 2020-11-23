@@ -11,6 +11,10 @@ import demo4 from '../../../media/betFolio/4.png';
 import demo5 from '../../../media/betFolio/5.png';
 import demo6 from '../../../media/betFolio/6.PNG';
 import demo7 from '../../../media/betFolio/7.PNG';
+import demo8 from '../../../media/betFolio/8.PNG';
+import demo9 from '../../../media/betFolio/9.PNG';
+import demo10 from '../../../media/betFolio/10.PNG';
+import demo11 from '../../../media/betFolio/11.jpeg';
 
 class BetFolioPage extends Component {
   state = {};
@@ -43,6 +47,54 @@ class BetFolioPage extends Component {
             </a>
           </Col>
         </Row>
+        <Row style={{ marginTop: 25, marginBottom: 25 }}>
+          <Col
+            xs={12}
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              textAlign: 'center',
+              color: '#ffffff',
+              fontSize: 25,
+            }}
+          >
+            I wanted an app to be able to see how all of my bets are doing in
+            real time, and not have to check back and forth between my betting
+            site and ESPN.
+            <ul
+              style={{
+                textAlign: 'left',
+                color: '#ffffff',
+                fontSize: 25,
+                marginLeft: '10%',
+                marginRight: '10%',
+                marginTop: 5,
+              }}
+            >
+              <li>Available on the Apple App Store</li>
+              <li>Over 2,000 downloads in the first month</li>
+              <li>
+                45% retention rate according to the Apple App Reports (hard to
+                calculate in my opinion because the app is mainly used on
+                Saturday and Sundays)
+              </li>
+              <li>
+                Can send your bets to your friends as well so they don’t have to
+                enter them in their own phone if you are betting together
+              </li>
+              <li>
+                If betting the over/under it'll calculate the total score and
+                show you how many more points you need or can allow
+              </li>
+              <li>
+                If betting the spread it'll show the teams spread score next to
+                their actual score
+              </li>
+            </ul>
+          </Col>
+        </Row>
         <Row>
           <Col
             xs={12}
@@ -52,7 +104,7 @@ class BetFolioPage extends Component {
               marginTop: 5,
             }}
           >
-            <img src={demo1} />
+            <img src={demo9} />
           </Col>
           <Col
             xs={12}
@@ -62,7 +114,27 @@ class BetFolioPage extends Component {
               marginTop: 5,
             }}
           >
-            <img src={demo2} />
+            <img src={demo8} />
+          </Col>
+          <Col
+            xs={12}
+            md={6}
+            lg={4}
+            style={{
+              marginTop: 5,
+            }}
+          >
+            <img src={demo11} />
+          </Col>{' '}
+          <Col
+            xs={12}
+            md={6}
+            lg={4}
+            style={{
+              marginTop: 5,
+            }}
+          >
+            <img src={demo10} />
           </Col>
           <Col
             xs={12}
