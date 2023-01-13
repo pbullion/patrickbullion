@@ -16,26 +16,10 @@ class SprucePage extends Component {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          textAlign: "center"
+          textAlign: "center",
         }}
       >
         <Row>
-          <Col
-            xs={12}
-            style={{
-              marginTop: 50
-            }}
-          >
-            <a href="https://www.oneinabullion.com">
-              <p
-                style={{
-                  fontSize: "2rem"
-                }}
-              >
-                www.OneInABullion.com
-              </p>
-            </a>
-          </Col>
           <Col xs={12}>
             <p>
               <a
@@ -59,7 +43,7 @@ class SprucePage extends Component {
               justifyContent: "center",
               textAlign: "center",
               color: "#ffffff",
-              fontSize: 25
+              fontSize: 25,
             }}
           >
             Instead of paying a website and having to use their template and
@@ -76,7 +60,7 @@ class SprucePage extends Component {
               justifyContent: "center",
               textAlign: "left",
               color: "#ffffff",
-              fontSize: 25
+              fontSize: 25,
             }}
           >
             <h3>Admin Site UI</h3>
